@@ -18,7 +18,7 @@ def parse_message(message):
     try:
         txt = message['message']['text']
     except:
-        txt = "This is not text."
+        txt = " "
     print("chat_id-->", chat_id)
     print("txt-->", txt)
     return chat_id, txt
